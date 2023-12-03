@@ -15,8 +15,13 @@ public class Beer {
     int quantity;
     String colour;
     
+
     
     public void yourBeer(double price) {
         System.out.printf("The beer %s that tastes like %s and the colour is %s cost %.2f euro", name,taste,colour,price);
+    }
+    public void yourBeer(String owner) {
+        System.out.println("This beer is made by " + owner + ", the name is " + name + ", the colour is " + colour + " and it tastes like " + taste);
+
     }
 }
