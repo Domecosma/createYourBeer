@@ -14,4 +14,9 @@ public class Beer {
     String taste;
     int quantity;
     String colour;
+    
+    
+    public void yourBeer(double price) {
+        System.out.printf("The beer %s that tastes like %s and the colour is %s cost %.2f euro", name,taste,colour,price);
+    }
 }
