@@ -9,6 +9,9 @@ package createyourbeer;
  * @author michi
  */
 public class Beer {
+
+    public Beer(String dark_Angel, String raspberry_and_Lemon, String dark) {
+    }
     
     String name;
     String taste;
