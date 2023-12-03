@@ -15,6 +15,13 @@ public class Beer {
     int quantity;
     String colour;
     
+     public Beer(String name, String taste, int quantity, String colour) {
+        this.name = name;
+        this.taste = taste;
+        this.quantity = quantity;
+        this.colour = colour;
+    }
+    
     
     public void yourBeer(double price) {
         System.out.printf("The beer %s that tastes like %s and the colour is %s cost %.2f euro", name,taste,colour,price);
