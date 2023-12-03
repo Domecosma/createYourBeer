@@ -15,6 +15,9 @@ public class CreateYourBeer {
      */
     public static void main(String[] args) {
         System.out.println("Create your own beer");
+        
+        Beer beer1 = new Beer("Dark Angel", "Raspberry and Lemon", "Dark");
+        beer1.yourBeer("Domenico");
     }
     
 }
