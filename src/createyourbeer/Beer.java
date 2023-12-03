@@ -15,7 +15,7 @@ public class Beer {
     int quantity;
     String colour;
     
-     public Beer(String name, String taste, int quantity, String colour) {
+     public Beer(String name, String taste, String colour) {
         this.name = name;
         this.taste = taste;
         this.quantity = quantity;

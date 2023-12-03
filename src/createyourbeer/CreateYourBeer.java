@@ -17,7 +17,8 @@ public class CreateYourBeer {
         System.out.println("Create your own beer");
         
         
-        
+        Beer beer2 = new Beer("Crocodile", "Lime", "ligth green");
+        beer2.yourBeer(4.50);
     }
     
 }
