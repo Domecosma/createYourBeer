@@ -14,4 +14,8 @@ public class Beer {
     String taste;
     int quantity;
     String colour;
+    
+    public void yourBeer(String owner) {
+        System.out.println("This beer is made by " + owner + ", the name is " + name + ", the colour is " + colour + " and it tastes like " + taste);
+    }
 }
