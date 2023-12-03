@@ -10,22 +10,17 @@ package createyourbeer;
  */
 public class Beer {
 
-    public Beer(String dark_Angel, String raspberry_and_Lemon, String dark) {
-        
-    }
-
-    public Beer(String name, String taste, int quantity, String colour) {
-        this.name = name;
-        this.taste = taste;
-        this.quantity = quantity;
-        this.colour = colour;
-    }
-    
     String name;
     String taste;
     int quantity;
     String colour;
     
+    public Beer(String name, String taste, String colour) {
+        this.name = name;
+        this.taste = taste;
+        this.quantity = quantity;
+        this.colour = colour;
+    }
     
     
     public void yourBeer(double price) {
