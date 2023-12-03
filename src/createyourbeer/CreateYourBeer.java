@@ -26,14 +26,17 @@ public class CreateYourBeer {
         beer2.yourBeer(4.50);
 
         
+        Beer beer3 = new Beer("Ghost", "Lime", "White");
+        beer3.yourBeer("Patrick");
+        
+        
         Beer beer4 = new Beer("Black heart", "Coffee", "Dark");
         beer4.yourBeer(6.00);
 
 
 
         
-        Beer beer3 = new Beer("Ghost", "Lime", "White");
-        beer3.yourBeer("Patrick");
+        
 
 
     }
