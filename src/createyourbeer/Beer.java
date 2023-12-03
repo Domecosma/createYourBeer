@@ -24,6 +24,6 @@ public class Beer {
     
     
     public void yourBeer(double price) {
-        System.out.printf("The beer %s that tastes like %s and the colour is %s cost %.2f euro", name,taste,colour,price);
+        System.out.println(String.format("The beer %s that tastes like %s and the colour is %s cost %.2f euro", name,taste,colour,price));
     }
 }
