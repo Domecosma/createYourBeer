@@ -20,9 +20,15 @@ public class CreateYourBeer {
         Beer beer1 = new Beer("Dark Angel", "Raspberry and Lemon", "Dark");
         beer1.yourBeer("Domenico");
 
+
         
         Beer beer2 = new Beer("Crocodile", "Lime", "ligth green");
         beer2.yourBeer(4.50);
+
+
+        
+        Beer beer3 = new Beer("Ghost", "Lime", "White");
+        beer3.yourBeer("Patrick");
 
     }
     
