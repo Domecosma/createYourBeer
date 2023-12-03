@@ -18,6 +18,9 @@ public class CreateYourBeer {
         
         Beer beer1 = new Beer("Dark Angel", "Raspberry and Lemon", "Dark");
         beer1.yourBeer("Domenico");
+        
+        Beer beer3 = new Beer("Ghost", "Lime", "White");
+        beer3.yourBeer("Patrick");
     }
     
 }

@@ -9,18 +9,18 @@ package createyourbeer;
  * @author michi
  */
 public class Beer {
-
-    public Beer(String dark_Angel, String raspberry_and_Lemon, String dark) {
-    String name;
-    String taste;
-    int quantity;
-    String colour;
-    }
     
     String name;
     String taste;
     int quantity;
     String colour;
+    
+    public Beer(String name, String taste, String colour) {
+        this.name = name;
+        this.taste = taste;
+        this.quantity = quantity;
+        this.colour = colour;
+    }
     
     public void yourBeer(String owner) {
         System.out.println("This beer is made by " + owner + ", the name is " + name + ", the colour is " + colour + " and it tastes like " + taste);
